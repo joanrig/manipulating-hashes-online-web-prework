@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-  groceries.values
+  all_grocs << groceries[dairy].collect + groceries[vegetable].collect + groceries[meat].collect + groceries[grains].collect
 
   
 
